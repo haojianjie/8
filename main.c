@@ -1,4 +1,18 @@
 #include <stdio.h>
+char arr[1024];
+int index = 0;
+int isMigan(char x){
+    int count = 0;
+    for(int i=0; i<index;i++){
+        if(x == arr[i]){
+            count++;
+        }
+    }
+    if(count == 0);{
+        return 0;
+    }
+   
+}
 
 int main()
 {
@@ -76,16 +90,17 @@ int main()
         int flag = 0;
         for (; j < index; j++)
         {
-        if (a == arr[j])
+
+            if (a == arr[j])
             {
                 flag = 1;
             }
         }
 
         if (flag != 0)
-        {
+            {
             str[i] = '*';
-        }
+            }
         }
 
         printf("%s\n", str);
@@ -99,8 +114,10 @@ int main()
      {
             printf("dianjihuichetuichuchengxu\n");
             break;
+     }
     }
     return 0;
 
 }
-}
+
+
