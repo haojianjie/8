@@ -24,11 +24,26 @@ int main()
     
     if(code == 1)
     {
+        char a;
+        char x;
+        printf("qingshuruyaotianhjiademinganzifu：\n");
+        scanf("%c", &a);
+        scanf("%c", &a);
+        arr[index] = a;
+        index++;
+        printf("tianjiachenggong,dianjihuichengjixu\n");
+        scanf("%c", &x);
+        scanf("%c", &x);
         
     }
     if(code == 2)
     {
-        
+        char x;
+        printf("shanchuzuihouyigeminganci\n");
+        index--;
+        printf("shanchuchenggong,dianjihuichejixu\n");
+        scanf("%c", &x);
+        scanf("%c", &x);
     }
     if(code == 3)
     {
